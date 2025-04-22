@@ -7,7 +7,7 @@ terraform {
   }
  # Adding Backend as S3 for Remote State Storage
   backend "s3" {
-    bucket = "prem-s3-buckets3"
+    bucket = "premdamo"
     key    = "vgs/terraform.tfstate"
     region = "us-east-1"   
   }
